@@ -1,0 +1,5 @@
+Options -Indexes
+
+<FilesMatch "^(config\.php|schema\.sql|seed\.php|README\.md|\.gitignore|\.env)$">
+  Require all denied
+</FilesMatch>
